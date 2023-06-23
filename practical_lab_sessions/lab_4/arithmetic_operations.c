@@ -1,5 +1,5 @@
-/* 1. program to add subtract, multiply and divide two integers using 
-user defined function and return type 
+/* 1. program to add subtract, multiply and divide two integers using
+user defined function and return type
 */
 
 #include <stdio.h>

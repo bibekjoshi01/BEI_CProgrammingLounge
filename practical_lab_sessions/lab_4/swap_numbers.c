@@ -5,7 +5,7 @@ of passing arguments
 #include <stdio.h>
 
 // Function prototype for call by value method
-void swapByValue(int a, int b);
+void swapByValue(int a, int b, int *result1, int *result2);
 
 // Function prototype for call by reference method
 void swapByReference(int *a, int *b);
