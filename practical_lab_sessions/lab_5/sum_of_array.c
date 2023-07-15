@@ -31,5 +31,5 @@ int main(){
     int sum = sumOfArray(arr, length);
     float avg = sum/length;
 
-    printf("The Sum of all number in array is %.2f", avg);
+    printf("The Sum of all numbers in array is %.2f", avg);
 }

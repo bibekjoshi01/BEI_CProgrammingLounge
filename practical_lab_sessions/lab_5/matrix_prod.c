@@ -29,7 +29,6 @@ int main()
     {
         for (int j = 0; j < COLUMNS; j++)
         {
-            result[i][j] = 0;
             for (int k = 0; k < ROWS; j++)
             {
                 result[i][j] += matrix1[i][k] * matrix2[k][j];
