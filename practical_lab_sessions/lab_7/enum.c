@@ -1,3 +1,5 @@
+// Write a program to show programming example with enumeration in c (enum).
+
 #include <stdio.h>
 
 enum Weekday {

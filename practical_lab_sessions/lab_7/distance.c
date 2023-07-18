@@ -1,4 +1,4 @@
-// WAP to enter cartesian coordinate points and display the distancd betweem them
+// WAP to enter cartesian coordinate points and display the distance betweem them
 
 #include <stdio.h>
 #include <math.h>
