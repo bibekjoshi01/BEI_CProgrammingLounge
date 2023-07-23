@@ -1,0 +1,65 @@
+Pointer is a special variable that is capable of storing some address.
+It points to memory location where the first byte is stored. 
+
+# General Syntax for declaring pointer variables:
+-----------------------------------------------
+    data_type *pointer_name;
+    Example: int *ptr; char *ptr, float *ptr;
+
+    data_type -> here data_type refers to the type of the value that the pointer will point to.
+
+
+# Initializing the pointer:
+--------------------------
+1. One way to initialize a pointer is to assign address of some variable.
+    Example: 
+        int x = 5;
+        int *ptr;
+        ptr = &x; // Assign address of x to ptr.
+
+
+# Value of Operator/indirection operator/dereference operator (*) 
+is an operator that is used to access the value of stored at the
+location pointed by the pointer.
+-----------------------------------------------------------------
+    Example:
+        int x = 5;
+        int *ptr;
+        ptr = &x;
+        printf("%d", *ptc);
+
+We can change the value of the object pointer by pointer.
+
+For Example:
+    int x = 10;
+    int *ptr = &x;
+    *ptr = 4; // modifying the value of x
+
+
+Note: 
+1. Never apply the indirection operator to the uninitialized pointer.
+
+For Example:
+    int *ptr;
+    printf("%d", *ptr);  // Wrong
+
+2. Assigning value to an uninitialized pointer is dangerous.
+
+For Example:
+    int *ptr;
+    *ptr = 1; // can't modify without assigning the value at first (Sefmentation Fault Error)
+
+
+# Pointer Assignment
+    Example:
+        int i = 10; // Address 1000
+        int *p, *q;
+        p = &i; // p = 1000
+        q = p; // q = p = 1000
+    
+    // Both q and p are pointing to same memory address
+
+
+    
+
+

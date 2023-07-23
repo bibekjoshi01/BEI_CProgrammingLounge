@@ -2,7 +2,7 @@
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-Welcome to the Project Name repository! This is an open-source project that encourages collaboration and contributions from the community.
+Welcome to the C Programming Lounge! This is an open-source project that encourages collaboration and contributions from the community.
 "Coding C Community: A collaborative repository for C programming enthusiasts. Sharpen your C skills, solve challenges, and work on projects together. Join us in a journey of learning, coding, and camaraderie. Let's excel in C programming together!"
 
 ## Table of Contents
@@ -27,7 +27,11 @@ Describe the installation steps required to set up the project locally. Include 
 
 ## Usage
 
-Provide instructions on how to use or run the project. Include examples, code snippets, or any additional information that will help contributors understand and utilize the project effectively.
+To run any program, you should have installed c compiler.
+- If you are using GNU, Compile the program
+    gcc program_name.c
+- Run the exe file
+    a.e exe
 
 ## Contributing
 
