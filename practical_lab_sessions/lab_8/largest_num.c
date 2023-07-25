@@ -2,19 +2,23 @@
 
 #include <stdio.h>
 
-void findMax(int *num1, int *num2, int *num3, int *largest){
+void findMax(int *num1, int *num2, int *num3, int *largest)
+{
     *largest = *num1;
 
-    if (*num2 > *largest){
+    if (*num2 > *largest)
+    {
         *largest = *num2;
     }
 
-    if (*num3 > *largest){
+    if (*num3 > *largest)
+    {
         *largest = *num3;
     }
 }
 
-int main() {
+int main()
+{
     int num1, num2, num3;
     int largest;
 

@@ -4,8 +4,9 @@
 
 void reverseArray(int *arr, int size)
 {
-    int *start = arr;
-    int *end = arr + size - 1;
+
+    int *start = arr;          // First Element of Array
+    int *end = arr + size - 1; // Second Last Element of Array
 
     while (start < end)
     {
@@ -22,7 +23,7 @@ void reverseArray(int *arr, int size)
 
 int main()
 {
-    int array[] = {1, 2, 3, 4, 5};
+    int array[] = {1, 2, 3, 4, 5, 6};
     int size = sizeof(array) / sizeof(array[0]);
 
     printf("Original Array: ");
