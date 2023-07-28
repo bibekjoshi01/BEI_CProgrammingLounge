@@ -1,3 +1,5 @@
+// 5. Write a program to multiply two matrices using pointers in c.
+
 #include <stdio.h>
 #define ROWS 2
 #define COLUMNS 2
@@ -16,6 +18,8 @@ void multiplyMatrix(int *matrix1, int *matrix2, int *result)
         }
     }
 }
+
+
 
 void displayMatrix(int matrix[][COLUMNS])
 {
