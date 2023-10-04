@@ -3,7 +3,8 @@
         "string.h": "c",
         "stdio.h": "c",
         "Q5(2).C": "cpp",
-        "xutility": "c"
+        "xutility": "c",
+        "stdlib.h": "c"
     },
     "fortran.fortls.disabled": true
 }

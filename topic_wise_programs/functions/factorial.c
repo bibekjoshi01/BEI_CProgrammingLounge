@@ -15,15 +15,14 @@ int main()
     printf("The factorial of %d is %ld", num, fact);
 }
 
-
 long long factorial(int x)
 {
-    long long fact = 1;
-
-    for (int i = x; i > 0; i--)
+    if (x == 0 || x == 1)
     {
-        fact *= i;
+        return 1;
     }
-
-    return fact;
+    else
+    {
+        return (x * factorial(x - 1));
+    }
 }

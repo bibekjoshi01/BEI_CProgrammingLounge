@@ -29,6 +29,6 @@ PROGRAM sort_nums
         WRITE(*, *) numbers(i)
     END DO
 
-    WRITE(*, *) "Second Largest Number:", numbers(2)
+    WRITE(*, *) "Second Largest Number:", numbers(n-1)
 
 END PROGRAM sort_nums

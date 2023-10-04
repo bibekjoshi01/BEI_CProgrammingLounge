@@ -5,7 +5,7 @@ PROGRAM Fibonacci
 
     INTEGER :: first = 0, second = 1, term = 0
 
-    DO WHILE (term < 500)
+    DO WHILE (first < 50)
         WRITE(*, '(I5)', ADVANCE='NO') first
         term = second + first
         first = second
