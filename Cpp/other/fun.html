@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fun</title>
+    <style>
+      body {
+        height: 100vh;
+      }
+      
+      #button {
+        color: black;
+        width: 150px;
+        height: 50px;
+        padding: 5px;
+        background-color: aqua;
+        position: absolute;
+      }
+    </style>
+  </head>
+
+  <body>
+    <button class="btn" id="button" onClick="myFunction()">Click Me !</button>
+  </body>
+
+  <script>
+    const buttonHeight = 50;
+    const buttonWidth = 150;
+
+    const maxWidth = window.innerWidth - buttonWidth;
+    const maxHeight = window.innerHeight - buttonHeight;
+
+    window.addEventListener("DOMContentLoaded", () => {
+      const button = document.getElementById("button");
+      button.addEventListener("click", () => alert("You Clicked Me!"));
+
+      button.addEventListener("mouseover", () => {
+        button.style.left = Math.floor(Math.random() * (maxWidth + 1)) + "px";
+        button.style.top = Math.floor(Math.random() * (maxWidth + 1)) + "px";
+      });
+    });
+  </script>
+</html>

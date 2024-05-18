@@ -1,0 +1,13 @@
+Polymorphism
+
+Types of Polymorphism:
+--------------------------------------------
+1. Compile Time Polymorphism
+    a. Function Overloading
+    b. Operator Overloading
+    
+2. Run Time Polymorphism
+    a. Virtual Function/Function Overriding
+    
+
+
